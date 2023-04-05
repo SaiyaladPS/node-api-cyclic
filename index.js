@@ -77,8 +77,4 @@ app.put("/update", (req, res) => {
   );
 });
 
-const server = app.listen(3001, () => {
-  console.log(`Server running on port ${server.address().port}`);
-});
-
-module.exports = app;
+app.listen(process.env.PORT || 3001);
