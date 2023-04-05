@@ -10,7 +10,8 @@
     "sweetalert2": "^11.7.3"
   },
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "name": "server",
   "version": "1.0.0",
